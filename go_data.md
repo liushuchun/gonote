@@ -167,3 +167,16 @@ u2 = u1 // Error: cannot use u1 (type struct { name string "username" }) as
 // type struct { name string } in assignment
 ```
 
+空结构 "节省" 内存，⽐比如⽤用来实现 set 数据结构，或者实现没有 "状态" 只有⽅方法的 "静
+态类"。
+```
+var num struct{}
+set:=make(map[string]struct{})
+set["a"]=null
+```
+
+# 面向对象
+>⾯面向对象三⼤大特征⾥里，Go 仅⽀支持封装，尽管匿名字段的内存布局和⾏行为类似继承。没有
+class 关键字，没有继承、多态等等。
+
+
