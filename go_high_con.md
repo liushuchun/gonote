@@ -660,39 +660,8 @@ func main() {
 
 关于runtime包对goroutine的调度，在stackoverflow上有一个不错的答案: http://stackoverflow.com/questions/13107958/what-exactly-does-runtime-gosched-do
 
-一个小问题
-----------
+在GO1.5的版本已经调整了，默认的使用核数已经变为最大值了，设定的默认GOMAXPROCS不再是1.
 
-我在Segmentfault看到了这个问题: http://segmentfault.com/q/1010000000207474
-
-题目说，如下的程序，按照理解应该打印下5次 `"world"`呀，可是为什么什么也没有打印
-
-```go
-package main
-
-import (
-    "fmt"
-)
-
-func say(s string) {
-    for i := 0; i < 5; i++ {
-        fmt.Println(s)
-    }
-}
-
-func main() {
-    go say("world") //开一个新的Goroutines执行
-    for {
-    }
-}
-```
-
-楼下的答案已经很棒了，这里Go仍然在使用单核，for死循环占据了单核CPU所有的资源，而main线和say两个goroutine都在一个线程里面，
-所以say没有机会执行。解决方案还是两个：
-
-- 允许Go使用多核(`runtime.GOMAXPROCS`)
-
-- 手动显式调动(`runtime.Gosched`)
 
 runtime调度器
 -------------
