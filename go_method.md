@@ -36,3 +36,24 @@ return len(self.elements)
 ```
 instance.method(args...) ---> <type>.func(instance, args...)
 ```
+前者是method value,后者method expression
+
+method绑定实例，method expression 需要显示传参。
+
+简单来说就是 一个传递的是指针，一个传递的是值copy.
+前者可以修改，后者则不能。
+
+```
+type User struct {
+    id int
+    name string
+}
+func (self *User) Test() {
+    fmt.Printf("%p, %v\n", self, self)
+}
+
+func (self User) Test(){
+    fmt.Printf("%p,%v\n",self,self)
+}
+
+```
