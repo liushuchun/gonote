@@ -27,4 +27,5 @@
     * [二、NSQ之nsqd](nsq_nsqd.md)
 * [GO填坑之路]()
     * [defer之坑](go_trap.md)
+    * [interface遇到问题](go_pointer_with_reciever.md)
     
