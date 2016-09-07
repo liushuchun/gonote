@@ -23,7 +23,7 @@
     * [九、GO高并发记录心得](go_high_con.md)
     * [十、GO分布式存储笔记](go_distribution.md)
 * [NSQ 源码解读]()
-    * [一、NSQ介绍](nsq_intro.md)
+    * [一、NSQ介绍](go_nsq_1.md)
     * [二、NSQ之nsqd](nsq_nsqd.md)
 * [GO填坑之路]()
     * [defer之坑](go_trap.md)
