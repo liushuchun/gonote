@@ -32,4 +32,7 @@
   * [interface遇到问题](go_pointer_with_reciever.md)
 * [GO工具系列](govet.md)
   * [go工具之vet](govet/govet.md)
+  * [go工具之gofmt](govet/gogofmt.md)
+  * go工具之goimports
+  * go工具之golint
 
