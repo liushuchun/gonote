@@ -8,8 +8,5 @@ gofmt [flags] [path ...]
 
 flags:
 
-  
-
-
 
 
