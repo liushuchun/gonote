@@ -24,6 +24,7 @@
   * [八、GO语言Comma-ok断言](go_commaok.md)
   * [九、GO高并发记录心得](go_high_con.md)
   * [十、GO分布式存储笔记](go_distribution.md)
+  * Go 并发模型：Pipelines and cancellation
 * [NSQ 源码解读](nsq.md)
   * [一、NSQ介绍](go_nsq_1.md)
   * [二、NSQ之nsqd](nsq_nsqd.md)

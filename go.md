@@ -1,4 +1,4 @@
-# 1.Never start a goroutine without knowing how it will stop
+# 1.Never start a goroutine without knowing how it will stop翻译
 
 [链接](https://dave.cheney.net/2016/12/22/never-start-a-goroutine-without-knowing-how-it-will-stop)
 
@@ -19,12 +19,9 @@ go func() {
 
 我们在设计时，有些goroutine可能直到程序结束才退出，例如一个后台goroutine监控一个配置文件，或者conn.Accept,循环接受请求，这些程序是非常少的，所以不认为他们是一个例外。
 
-# 2.Do not fear first class functions
+# 2.Do not fear first class functions翻译
 
+# 
 
-
-#  
-
-  
 
 
