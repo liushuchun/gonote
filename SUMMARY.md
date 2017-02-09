@@ -24,10 +24,10 @@
   * [八、GO语言Comma-ok断言](go_commaok.md)
   * [九、GO高并发记录心得](go_high_con.md)
   * [十、GO分布式存储笔记](go_distribution.md)
-* NSQ 源码解读
+* [NSQ 源码解读](nsq.md)
   * [一、NSQ介绍](go_nsq_1.md)
   * [二、NSQ之nsqd](nsq_nsqd.md)
-* GO填坑之路
+* [GO填坑之路](go.md)
   * [defer之坑](go_trap.md)
   * [interface遇到问题](go_pointer_with_reciever.md)
 * [GO工具系列](govet.md)
@@ -35,4 +35,6 @@
   * [go工具之gofmt](govet/gogofmt.md)
   * go工具之goimports
   * go工具之golint
+* [GO博客学习](go.md)
+  * GO一些tips.
 
