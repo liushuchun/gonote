@@ -25,6 +25,7 @@
   * [九、GO高并发记录心得](go_high_con.md)
   * [十、GO分布式存储笔记](go_distribution.md)
   * Go 并发模型：Pipelines and cancellation
+  * [十二、golang线程池连接池](golang.md)
 * [NSQ 源码解读](nsq.md)
   * [一、NSQ介绍](go_nsq_1.md)
   * [二、NSQ之nsqd](nsq_nsqd.md)
@@ -34,8 +35,8 @@
 * [GO工具系列](govet.md)
   * [go工具之vet](govet/govet.md)
   * [go工具之gofmt](govet/gogofmt.md)
-  * go工具之goimports
-  * go工具之golint
+  * [go工具之goimports](govet/gogoimports.md)
+  * [go工具之golint](govet/gogolint.md)
 * [GO博客学习](go.md)
-  * GO一些tips.
+  * [GO一些tips.](go/gotips.md)
 
