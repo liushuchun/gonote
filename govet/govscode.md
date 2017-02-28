@@ -12,8 +12,6 @@
 
 大致是进入VS Code,执行⇧⌘P,输入shell command,自动执行安装快捷alias.并且重启terminal\(zsh无需重启\)。
 
-
-
 **一些快捷键**
 
 快捷键: shift + alt + 鼠标左键
@@ -61,6 +59,8 @@ Ctrl+P 模式: \(Mac 是 CMD+P\)
 **皮肤预览:**
 
 F1后输入 theme 回车，然后上下键即可预览。
+
+
 
 
 
