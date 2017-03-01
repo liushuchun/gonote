@@ -38,6 +38,7 @@
   * [go工具之goimports](govet/gogoimports.md)
   * [go工具之golint](govet/gogolint.md)
   * [go工具之编译器Vscode](govet/govscode.md)
+  * [项目合算表](govet/.md)
 * [GO博客学习](go.md)
   * [GO一些tips.](go/gotips.md)
 
