@@ -40,6 +40,7 @@
   * [go工具之golint](govet/gogolint.md)
   * [go工具之编译器Vscode](govet/govscode.md)
   * [项目合算表](govet/.md)
+  * [go一次性升级所有的包](goyi-ci-xing-sheng-ji-suo-you-de-bao.md)
 * [GO博客学习](go.md)
   * [GO一些tips.](go/gotips.md)
 
